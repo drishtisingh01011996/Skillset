@@ -4,7 +4,7 @@
 
 ## 🚀 Goal
 
-By the end of this project, you'll have a comprehensive comparison of various Python plotting tools, an understanding of which visuals suit which data types, and a reusable EDA toolkit for future data science projects.
+By the end of this project, we'll have a comprehensive comparison of various Python plotting tools, an understanding of which visuals suit which data types, and a reusable EDA toolkit for future data science projects.
 
 ## Project Description
 
