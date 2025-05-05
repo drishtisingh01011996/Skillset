@@ -1,1 +1,76 @@
-Packages and libraries:
+# Packages and libraries:
+
+## altair: 
+1. Declarative plotting library using a simple grammar of graphics.
+2. Very efficient for generating clean and interactive plots quickly.
+3. Integrates well with data in tidy (long-form) format.
+
+## bokeh:
+1. Another interactive visualization library.
+2. Good for web-based dashboards and interactive reports.
+3. Supports streaming and real-time data plotting.
+
+## missingno
+1. Specialized in visualizing missing data.
+2. Plots include matrix, bar, dendrogram, and heatmaps to understand missingness patterns.
+
+## sweetviz / pandas-profiling
+1. Automated EDA tools.
+2. Generate full HTML reports summarizing distributions, correlations, missing data, and more.
+3. Very useful for a quick overview of the dataset.
+
+# Phase 1: One-Column DataFrames
+
+## For Numerical Data
+1. Histogram (matplotlib, seaborn, pandas): Show distribution of values.
+2. Box plot (seaborn, plotly): Visualize spread and outliers.
+3. KDE Plot (seaborn): Smoothed probability density function.
+
+## Categorical Data
+1. Count Plot / Bar Plot (seaborn, plotly): Frequency of each category.
+2. Pie Chart (plotly, matplotlib): Proportional distribution (less recommended for complex data).
+
+## Date/Time Data
+1. Line Plot (pandas, plotly): Trends over time.
+2. Time-binned Histogram (matplotlib, pandas): Temporal distribution.
+
+Phase 1: One-Column DataFrames
+Numerical Data
+
+Histogram (matplotlib, seaborn, pandas): Show distribution of values.
+
+Box plot (seaborn, plotly): Visualize spread and outliers.
+
+KDE Plot (seaborn): Smoothed probability density function.
+
+Categorical Data
+
+Count Plot / Bar Plot (seaborn, plotly): Frequency of each category.
+
+Pie Chart (plotly, matplotlib): Proportional distribution (less recommended for complex data).
+
+Date/Time Data
+
+Line Plot (pandas, plotly): Trends over time.
+
+Time-binned Histogram (matplotlib, pandas): Temporal distribution.
+
+# Phase 2: Two-Column DataFrames
+
+## Numerical vs Numerical
+1. Scatter Plot (seaborn, matplotlib, plotly): Relationship between two variables.
+2. Hexbin Plot (matplotlib, seaborn): Density of points in a 2D space.
+
+## Categorical vs Numerical
+1. Box Plot (seaborn, plotly): Compare distributions across categories.
+2. Violin Plot (seaborn): Show distribution + kernel density.
+
+## Categorical vs Categorical
+1. Grouped Bar Plot (seaborn): Compare frequency across categories.
+2. Heatmap (frequency) (seaborn, plotly): Co-occurrence matrix.
+
+# Phase 3: Multi-Column DataFrames
+1. Pair Plots (seaborn): Grid of scatter plots to see pairwise relationships.
+2. Correlation Heatmap (seaborn, plotly): Highlight relationships across all numerical columns.
+3. Parallel Coordinates (plotly, pandas.plotting): Compare multiple features simultaneously.
+4. Interactive Dashboards (Plotly Dash, Streamlit, Bokeh): Create interactive web apps for advanced data exploration.
