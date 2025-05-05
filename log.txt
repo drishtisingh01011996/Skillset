@@ -34,27 +34,6 @@
 1. Line Plot (pandas, plotly): Trends over time.
 2. Time-binned Histogram (matplotlib, pandas): Temporal distribution.
 
-Phase 1: One-Column DataFrames
-Numerical Data
-
-Histogram (matplotlib, seaborn, pandas): Show distribution of values.
-
-Box plot (seaborn, plotly): Visualize spread and outliers.
-
-KDE Plot (seaborn): Smoothed probability density function.
-
-Categorical Data
-
-Count Plot / Bar Plot (seaborn, plotly): Frequency of each category.
-
-Pie Chart (plotly, matplotlib): Proportional distribution (less recommended for complex data).
-
-Date/Time Data
-
-Line Plot (pandas, plotly): Trends over time.
-
-Time-binned Histogram (matplotlib, pandas): Temporal distribution.
-
 # Phase 2: Two-Column DataFrames
 
 ## Numerical vs Numerical
