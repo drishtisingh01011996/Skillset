@@ -53,3 +53,18 @@
 2. Correlation Heatmap (seaborn, plotly): Highlight relationships across all numerical columns.
 3. Parallel Coordinates (plotly, pandas.plotting): Compare multiple features simultaneously.
 4. Interactive Dashboards (Plotly Dash, Streamlit, Bokeh): Create interactive web apps for advanced data exploration.
+
+
+# Implimentation:
+
+1. Random Data creation
+-> Context: Random dataset created represents gene expression levels (measured as normalized counts, e.g., TPM or FPKM) for a set of genes across tumor and normal samples from a cancer study. It includes metadata such as sample type (tumor vs. normal), patient age, and sample collection date, allowing exploration of numerical, categorical, and datetime data types. Data size is 200 samples.
+-> Biological Relevance: Gene expression data is common in cancer research, where differential expression (tumor vs. normal) and correlations between genes or clinical features (e.g., age, stage) are analyzed.
+
+-> Why This Dataset?
+
+1. Covers all data types required for Phase 1: Numerical (gene_expression, patient_age), Categorical (sample_type, tumor_stage), Datetime (collection_date).
+2. Enables two-column analyses in Phase 2 (e.g., gene_expression vs. gene_b_expression, sample_type vs. patient_age).
+3. Supports multi-column exploration in Phase 3 with correlations, pair plots, and dashboards.
+4. Biologically meaningful, aligning with your interest in biological data, and flexible for visualization with matplotlib, seaborn, plotly, etc.
+
