@@ -16,21 +16,21 @@ The project follows a stepwise approach, beginning with simple, one-column DataF
 
 ## 🔍 Workflow
 
-### 1. Phase 1: One-Column DataFrames
+### 1. Phase 1: One-Column DataFrames (This week)
 Explore basic plots using popular visualization libraries such as `matplotlib`, `seaborn`, and `plotly` based on data types:
 
 - **Numerical (int, float)**: Histogram, Box plot, KDE plot.
 - **Categorical (object, category)**: Count plot / Bar plot, Pie chart.
 - **Date/Time (datetime)**: Line plot (over time), Histogram with time bins.
 
-### 2. Phase 2: Two-Column DataFrames
+### 2. Phase 2: Two-Column DataFrames (next week)
 Explore relationships between two variables:
 
 - **Numerical vs Numerical**: Scatter plot, Hexbin plot.
 - **Categorical vs Numerical**: Box plot, Violin plot.
 - **Categorical vs Categorical**: Grouped bar plot, Heatmap (frequency).
 
-### 3. Phase 3: Multi-Column DataFrames
+### 3. Phase 3: Multi-Column DataFrames 
 Explore high-dimensional data representations:
 
 - Pair plots.
@@ -54,4 +54,3 @@ Explore high-dimensional data representations:
 ---
 
 ## 📁 Folder Structure
-
